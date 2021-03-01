@@ -33,7 +33,7 @@ sudo apt-get install python-virtualenv python-dev
 **Installing RetroPie-Manager**
 ```sh
 cd
-git clone https://github.com/botolo78/RetroPie-Manager.git
+git clone https://github.com/NicholasBerryman/RetroPie-Manager-Plus.git
 cd RetroPie-Manager
 make install
 ```
