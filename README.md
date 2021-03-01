@@ -34,7 +34,7 @@ sudo apt-get install python-virtualenv python-dev
 ```sh
 cd
 git clone https://github.com/NicholasBerryman/RetroPie-Manager-Plus.git
-cd RetroPie-Manager
+cd RetroPie-Manager-Plus
 make install
 ```
 
@@ -88,7 +88,7 @@ First, run
 ```crontab -e```
 Then, add the following line to the end of the file:
 ```
-@reboot /opt/retropie/supplementary/retropie-manager/rpmanager.sh --start
+@reboot /opt/retropie/supplementary/retropie-manager-plus/rpmanager.sh --start
 ```
 # Update
 ```sh
