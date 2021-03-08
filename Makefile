@@ -20,10 +20,10 @@ clean: delpyc
 	rm -Rf bin include lib local node_modules compass/.sass-cache
 
 install:
-	virtualenv --no-site-packages .
-	bin/pip install -r pip-requirements/basic.txt
-	bin/pip install psutil
-	bin/python manage.py migrate
+	virtualenv --python=/usr/bin/python2.7 .
+	python2.7 -m pip install -r pip-requirements/basic.txt
+	python2.7 -m pip install psutil
+	python2.7 manage.py migrate
 
 install-dev: install
 	bundle install --gemfile=compass/Gemfile
