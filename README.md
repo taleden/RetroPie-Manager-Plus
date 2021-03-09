@@ -118,7 +118,8 @@ make install
 - Adds real-time updating to Monitoring page (MOSTLY DONE)
   * Updates all values on the monitoring screen every 3 seconds (DONE)
   * Updates file system table if devices are added/removed e.g. a USB (TODO)
-  * Requires Javascript
+  * **Requires Javascript**
 - Adds custom-data monitoring (TODO)
 - Allows rom sub-directories (TODO)
 - Re-introduces save management (TODO)
+- Migrate to Python 3 (TODO)
